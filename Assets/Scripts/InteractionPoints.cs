@@ -50,7 +50,7 @@ public class InteractionPoints : MonoBehaviour
 
 
         // Zoom out + Interactor's distance augmentation
-        if (count == 50)
+        if (count == 100)
         {
             cam.gameObject.transform.position -= new Vector3(0f, 0f, 3f);
             Ax +=1;
